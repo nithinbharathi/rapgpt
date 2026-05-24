@@ -3,8 +3,8 @@
 Character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no cross-attention) trained on Eminem songs using the [kaggle](https://www.kaggle.com/datasets/thaddeussegura/eminem-lyrics-from-all-albums/data) dataset.
 
 <div align="center">
-  <img src="assets/logo.png" alt="logo" width="200" style="margin-right: 20px;">
-  <img src="assets/transformers.jpg" alt="transformers" width="200" style="margin-left: 20px;">
+  <img src="assets/logo.png" alt="logo" width="700" height = "500"style="margin-right: 20px;">
+  <img src="assets/transformers.jpg" alt="transformers" width="400" style="margin-left: 20px;">
 </div>
 
 
@@ -28,7 +28,7 @@ Usage
 - Run inference: `python inference.py`
 
 <div align="center">
-<img src="assets/loss_curve.png" alt = "alt" width="300">
+<img src="assets/loss_curve.png" alt = "alt" width="700">
 <p><b>Figure 1: Model Loss over epochs</b></p>
 </div>
 
