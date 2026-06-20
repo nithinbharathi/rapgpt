@@ -36,14 +36,17 @@ npm run dev
 ```
 
 <div align="center">
+<img src="assets/rapgpt.jpg" alt = "alt" width="700">
+<p><b>Figure 2: front end</b></p>
+</div>
+
+
+<div align="center">
 <img src="assets/loss_curve.png" alt = "alt" width="700">
 <p><b>Figure 1: Model Loss over epochs</b></p>
 </div>
 
-<div align="center">
-<img src="assets/rapgpt.jpg" alt = "alt" width="700">
-<p><b>Figure 2: front end</b></p>
-</div>
+
 
 
 
