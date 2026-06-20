@@ -11,6 +11,9 @@ Requirements
 ------------
 - Python 3.8 or newer.
 - PyTorch
+- Fast API
+- Node.js
+- React
 
 Usage
 -----
