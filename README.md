@@ -1,17 +1,14 @@
 # rapgpt
 
-<div align ="center">
-<img src="assets/logo.png" alt="transformers" width="400">
-</div>
+
+<p align="center">
+  <img src="assets/logo.png" width="500" height="300" />
+  <img src="assets/home.png" width="500" height="300" />
+</p>
 
 Character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no cross-attention) trained on Eminem songs using [this](https://www.kaggle.com/datasets/thaddeussegura/eminem-lyrics-from-all-albums/data) dataset.
 
 
-<div align="center">
-  <div align="center">
-<img src="assets/rapgpthome.png" alt = "alt" width="800">
-</div>
-</div>
 
 Requirements
 ------------
@@ -46,13 +43,13 @@ npm run dev
 
 <div align="center">
 <img src="assets/rapgpt.jpg" alt = "alt" width="700">
-<p><b>Figure 2: front end</b></p>
+<p><b>Figure 1: front end</b></p>
 </div>
 
 
 <div align="center">
 <img src="assets/loss_curve.png" alt = "alt" width="700">
-<p><b>Figure 1: Model Loss over epochs</b></p>
+<p><b>Figure 2: Model Loss over epochs</b></p>
 </div>
 
 
