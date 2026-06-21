@@ -4,7 +4,7 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/logo.png" width="420" height="320" alt="Logo">
+      <img src="assets/logo.png" width="420" height="350" alt="Logo">
     </td>
     <td align="center">
       <img src="assets/home.png" width="600" height="350" alt="App Screenshot">
