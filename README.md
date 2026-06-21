@@ -4,15 +4,15 @@
 <table align="center">
   <tr>
     <td align="center">
-      <img src="assets/logo.png" width="300" height="200" alt="Logo">
+      <img src="assets/logo.png" width="420" height="320" alt="Logo">
     </td>
     <td align="center">
-      <img src="assets/rapgpthome.png" width="600" height="250" alt="App Screenshot">
+      <img src="assets/home.png" width="600" height="350" alt="App Screenshot">
     </td>
   </tr>
 </table>
 
-Character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no cross-attention) trained on Eminem songs using [this](https://www.kaggle.com/datasets/thaddeussegura/eminem-lyrics-from-all-albums/data) dataset.
+A tiny character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no cross-attention) trained on Eminem songs using the [kaggle](https://www.kaggle.com/datasets/thaddeussegura/eminem-lyrics-from-all-albums/data) dataset.
 
 ## Features
 
