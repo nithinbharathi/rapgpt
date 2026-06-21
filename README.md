@@ -2,8 +2,8 @@
 
 
 <p align="center">
-  <img src="assets/logo.png" width="300" height="300" />
-  <img src="assets/home.png" width="300" height="200" />
+  <img src="assets/logo.png" width="400" height="300" />
+  <img src="assets/home.png" width="400" height="300" />
 </p>
 
 Character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no cross-attention) trained on Eminem songs using [this](https://www.kaggle.com/datasets/thaddeussegura/eminem-lyrics-from-all-albums/data) dataset.
@@ -42,7 +42,7 @@ npm run dev
 ```
 
 <div align="center">
-<img src="assets/rapgpt.jpg" alt = "alt" width="700">
+<img src="assets/output.png" alt = "alt" width="700">
 <p><b>Figure 1: front end</b></p>
 </div>
 
