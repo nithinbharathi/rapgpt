@@ -39,7 +39,7 @@ function App() {
       </button>
       </div>
 
-      <pre className="output">{output}</pre>
+      <pre>{output}</pre>
     </div>
   );
 }
