@@ -9,7 +9,7 @@ Character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no
 
 <div align="center">
   <div align="center">
-<img src="assets/rapgpthome.png" alt = "alt" width="600">
+<img src="assets/rapgpthome.png" alt = "alt" width="800">
 </div>
 </div>
 
