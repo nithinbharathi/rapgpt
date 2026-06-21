@@ -46,8 +46,10 @@ cd rapgpt
 ### Run backend:
 ```
 cd backend
-python -m env env
+python -m venv venv
+source venv/bin/activate
 pip install torch fastapi uvicorn
+python main.py
 ```
 
 ### Run frontend:
@@ -97,4 +99,4 @@ which is automatically loaded by the backend during inference.
 
 Acknowledgements
 -----------------
-Inspired by Andrej Karpathy's nanoGPT and related educational resources.
+Inspired by Andrej Karpathy's [nanoGPT](https://www.youtube.com/watch?v=kCc8FmEb1nY) and related educational resources.
