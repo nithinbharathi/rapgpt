@@ -1,7 +1,7 @@
 # rapgpt
 
 <div align ="center">
-<img src="assets/logo.png" alt="transformers" width="300">
+<img src="assets/logo.png" alt="transformers" width="400">
 </div>
 
 Character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no cross-attention) trained on Eminem songs using [this](https://www.kaggle.com/datasets/thaddeussegura/eminem-lyrics-from-all-albums/data) dataset.
@@ -9,7 +9,7 @@ Character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no
 
 <div align="center">
   <div align="center">
-<img src="assets/rapgpthome.png" alt = "alt" width="700">
+<img src="assets/rapgpthome.png" alt = "alt" width="600">
 </div>
 </div>
 
