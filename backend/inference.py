@@ -14,6 +14,7 @@ model.eval()
 
 
 def infer(max_new_tokens):
+    print("reached infer....", time.time())
     for token in model.generate(torch.zeros((1,1), dtype = torch.long, device = device), max_new_tokens=max_new_tokens):
         start = time.time()
         yield token

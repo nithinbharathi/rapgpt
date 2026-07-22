@@ -3,6 +3,7 @@ import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from inference import infer
 from fastapi.responses import StreamingResponse
+import time
 
 app = FastAPI()
 
@@ -16,7 +17,10 @@ app.add_middleware(
 
 @app.get("/rap")
 def rap(max_tokens : int = Query(100)):
-    return StreamingResponse(infer(max_tokens), media_type="text/plain")
+    print("reached the endpoint.....", time.time())
+    res = StreamingResponse(infer(max_tokens), media_type="text/plain")
+    print("streaming the response back....", time.time())
+    return res
 
 
 if __name__ == "__main__":
