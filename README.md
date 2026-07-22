@@ -1,17 +1,5 @@
 # rapgpt
 
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="assets/logo.png" width="420" height="350" alt="Logo">
-    </td>
-    <td align="center">
-      <img src="assets/home.png" width="600" height="350" alt="App Screenshot">
-    </td>
-  </tr>
-</table>
-
 A tiny character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.03762) (no cross-attention) trained on Eminem songs using the [kaggle](https://www.kaggle.com/datasets/thaddeussegura/eminem-lyrics-from-all-albums/data) dataset.
 
 ## Features
@@ -83,7 +71,7 @@ which is automatically loaded by the backend during inference.
 ## Screenshots
 
 <div align="center">
-<img src="assets/output.png" alt = "alt" height = "300" width="700">
+<img src="assets/output.png" alt = "alt" height = "350" width="700">
 <p><b>Figure 1: front end</b></p>
 </div>
 
@@ -95,7 +83,13 @@ which is automatically loaded by the backend during inference.
 
 
 
+## Note About Response Time
 
+This [application](https://rapgpt-lemon.vercel.app/) is deployed on a serverless platform. If the app has not received any requests for a while, the first request may take a little longer to process due to server initialization (cold start).
+
+Subsequent requests will be significantly faster once the server is active.
+
+If you experience a longer-than-usual wait on your first request, please wait a few seconds and try again — the application is warming up.
 
 Acknowledgements
 -----------------
