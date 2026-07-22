@@ -11,8 +11,9 @@ A tiny character-level decoder-only [Transformer](https://arxiv.org/pdf/1706.037
 
 backend/
 - train.py – trains the Transformer model
-- inference.py – loads the trained model for inference
+- inference.py – loads the trained model and runs inference
 - model_weights.pth – pretrained model weights
+- main.py - starts the backend server and exposes the api
 
 frontend/
 - React application
@@ -32,16 +33,16 @@ git clone https://github.com/nithinbharathi/rapgpt.git
 cd rapgpt
 ```
 ### Run backend:
-```
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate
-pip install torch fastapi uvicorn
+pip install -r requirements.txt
 python main.py
 ```
 
 ### Run frontend:
-```
+```bash
 cd frontend
 npm install
 npm run dev
