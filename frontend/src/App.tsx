@@ -1,8 +1,10 @@
 import './App.css'
 import { useState } from "react";
 
+const API_URL = import.meta.env.VITE_API_URL;
 async function rap(maxTokens : number, setOutput: (v: string) => void) {
-  const res = await fetch(`http://127.0.0.1:8000/rap?max_tokens=${maxTokens}`);
+  const res = await fetch(`${API_URL}/rap?max_tokens=${maxTokens}`);
+  console.log(API_URL, res)
 
   const reader = res.body!.getReader();
   const decoder = new TextDecoder();
