@@ -13,13 +13,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+@app.get("/")
+def home():
+    return "backend is running..."
 
 @app.get("/rap")
 def rap(max_tokens : int = Query(100)):
-    print("reached the endpoint.....", time.time())
     res = StreamingResponse(infer(max_tokens), media_type="text/plain")
-    print("streaming the response back....", time.time())
     return res
 
 
