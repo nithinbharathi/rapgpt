@@ -7,7 +7,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # create a NEW model instance
 model = Bigram()
-model.load_state_dict(torch.load(Path(__file__).with_name("model_weights.pth"), map_location=device))
+model.load_state_dict(torch.load(Path(__file__).with_name("model_weights.pth"), map_location=device, weights_only=True))
 
 model.to(device)
 model.eval()
